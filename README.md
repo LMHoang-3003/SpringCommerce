@@ -73,4 +73,4 @@ The project follows a layered architecture and employs best practices in organiz
     - Specification:
         - Used for dynamic queries in the repository layer. It allows flexible querying using JPA Criteria API.
         - Containing: `OrderItemSpecification.java`.
-
+##  All required steps in order to get the application run on a local computer
