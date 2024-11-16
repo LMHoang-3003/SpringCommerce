@@ -92,6 +92,7 @@ The project follows a layered architecture and employs best practices in organiz
     spring.datasource.url=jdbc:mysql://localhost:3306/spring_commerce
     spring.datasource.username=your_database_username
     spring.datasource.password=your_database_password
+    spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
     server.port = 2424
     spring.jpa.hibernate.ddl-auto=update
     aws.s3.access=${AWS_ACCESS_KEY_ID}
