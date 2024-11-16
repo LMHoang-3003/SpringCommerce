@@ -2,7 +2,6 @@ package com.lhdev.SpringCommerce.dto;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import com.lhdev.SpringCommerce.entity.OrderItem;
-import com.lhdev.SpringCommerce.entity.Payment;
 import lombok.Data;
 
 import java.math.BigDecimal;
@@ -13,5 +12,4 @@ import java.util.List;
 public class OrderRequest {
     private BigDecimal totalPrice;
     private List<OrderItemRequest> items;
-    private Payment paymentInfo;
 }
