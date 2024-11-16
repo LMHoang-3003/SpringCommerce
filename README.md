@@ -104,6 +104,75 @@ The project follows a layered architecture and employs best practices in organiz
     mvn spring-boot:run
     ```
 ## Full CURL commands or Postman snapshots to verify the APIs including request endpoints, HTTP Headers and request payload if any.
+- Authentication:
+  - User Login:
+    ![user_login](snapshot-postman/user_login.png)
+  - User Register:
+    ![user_register](snapshot-postman/user_register.png)
+- User:
+  - Get all users:
+    ![get_all_users](snapshot-postman/get_all_users.png)
+  - Get user's information and history order:
+    ![get_userInfo_history](snapshot-postman/get_userInfo_history.png)
+    ![get_userInfo_history](snapshot-postman/get_userInfo_history_2.png)
+    ![get_userInfo_history](snapshot-postman/get_userInfo_history_3.png)
+- Product:
+  - Create Product:
+    ![create_product_denied](snapshot-postman/create_product_denied.png)
+    ![create_product_success](snapshot-postman/create_product.png)
+  - Get all Products:
+    ![get_products](snapshot-postman/get_all_products.png)
+    ![get_products](snapshot-postman/get_all_products_2.png)
+  - Get product by id:
+    ![get_product_by_id](snapshot-postman/get_product_by_id.png)
+  - Get product by category id:
+    ![get_product_by_category_id](snapshot-postman/get_product_by_categoryId.png)
+  - Get product by brand:
+    ![get_product_by_brand](snapshot-postman/get_product_by_brand.png)
+  - Get product by color:
+    ![get_product_by_color](snapshot-postman/get_product_by_color.png)
+    ![get_product_by_color](snapshot-postman/get_product_by_color2.png)
+  - Search Products by keyword:
+    ![search_products](snapshot-postman/search_product.png)
+    ![search_products](snapshot-postman/search_product_2.png)
+    ![search_products](snapshot-postman/search_product_3.png)
+  - Update Product:
+    ![update_product_denied](snapshot-postman/update_product_denied.png)
+    ![update_product_success](snapshot-postman/update_product_success.png)
+    ![get_product_test_update](snapshot-postman/get_product_by_id_test.png)
+  - Delete Product:
+    ![delete_product_denied](snapshot-postman/delete_product_denied.png)
+    ![delete_product_success](snapshot-postman/delete_product_success.png)
+- Category:
+  - Create category:
+    ![create_category_denied](snapshot-postman/create_category_denied.png)
+    ![create_category_successs](snapshot-postman/create_category_success.png)
+  - Get all categories:
+    ![get_all_categories](snapshot-postman/get_all_categories.png)
+  - Update category:
+    ![update_category_denied](snapshot-postman/update_category_denied.png)
+    ![update_category_success](snapshot-postman/update_category_success.png)
+    ![get_category_test_update](snapshot-postman/get_all_categories_test.png)
+  - Delete category:
+    ![delete_category_denied](snapshot-postman/delete_category_denied.png)
+    ![delete_category_success](snapshot-postman/delete_category_success.png)
+    ![get_category_test_delete](snapshot-postman/get_all_categories_test_delete.png)
+- Address:
+  - Create or Update user's address:
+    ![create_address](snapshot-postman/address.png)
+    ![get_userInfo_test_address](snapshot-postman/get_userInfo_test_address.png)
+- Order:
+  - Create order:
+    ![order_product](snapshot-postman/order.png)
+  - Get all orders:
+    ![get_all_orders_denied](snapshot-postman/get_all_orders_denied.png)
+    ![get_all_orders_success](snapshot-postman/get_all_orders.png)
+    ![get_all_orders_success](snapshot-postman/get_all_orders2.png)
+  - Get order by item id:
+    ![get_all_orders_by_item_id](snapshot-postman/get_order_by_itemId.png)
+    ![get_all_orders_by_item_id](snapshot-postman/get_order_by_itemId2.png)
+  - Udate order'status:
+    ![update_orderStatus_denied](snapshot-postman/update_order_status_denied.png)
+    ![update_orderStatus_success](snapshot-postman/update_order_status_success.png)
+    ![get_order_test_update](snapshot-postman/get_order_by_itemId_test_update.png)
 
-  
-   
