@@ -74,3 +74,36 @@ The project follows a layered architecture and employs best practices in organiz
         - Used for dynamic queries in the repository layer. It allows flexible querying using JPA Criteria API.
         - Containing: `OrderItemSpecification.java`.
 ##  All required steps in order to get the application run on a local computer
+
+- **Clone the Repository**  
+    - Clone the project to your local machine using the following commands:  
+       ```bash
+       git clone https://github.com/LMHoang-3003/SpringCommerce.git
+       cd SpringCommerce
+       ```
+   - Install dependencies:
+     ```bash
+     mvn clean install
+     ```
+  - Configure the application:
+    - Open src/main/resources/application.properties and set up your database configuration.
+    - In this project it will be like this:
+    ```bash
+    spring.datasource.url=jdbc:mysql://localhost:3306/spring_commerce
+    spring.datasource.username=your_database_username
+    spring.datasource.password=your_database_password
+    spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
+    server.port = 2424
+    spring.jpa.hibernate.ddl-auto=update
+    aws.s3.access=${AWS_ACCESS_KEY_ID}
+    aws.s3.secrete=${AWS_SECRET_ACCESS_KEY}
+    ```
+  - Run the application:
+    - Start the Spring Boot application using Maven:
+    ```bash
+    mvn spring-boot:run
+    ```
+## Full CURL commands or Postman snapshots to verify the APIs including request endpoints, HTTP Headers and request payload if any.
+
+  
+   
