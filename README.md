@@ -176,3 +176,5 @@ The project follows a layered architecture and employs best practices in organiz
     ![update_orderStatus_success](snapshot-postman/update_order_status_success.png)
     ![get_order_test_update](snapshot-postman/get_order_by_itemId_test_update.png)
 
+- Link video demo:
+- [SpringCommerce](https://drive.google.com/file/d/1qp_v8_zXK_QssI3-zFbp7kbVlTQMBHN5/view?usp=sharing)
